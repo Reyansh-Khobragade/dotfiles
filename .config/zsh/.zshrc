@@ -37,7 +37,7 @@ alias l='exa --color auto'
 alias ll='exa -la --color auto'
 alias la='exa -la --color auto'
 alias mirror-update="sudo reflector --age 6 --latest 20  --fastest 20 --threads 5 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
-alias mpv='mpv --hwde'
+alias mpv='mpv --hwdec'
 
 # kitty blur in kde plasma
 if [[ $(ps --no-header -p $PPID -o comm) =~ '^yakuake|kitty$' ]]; then
